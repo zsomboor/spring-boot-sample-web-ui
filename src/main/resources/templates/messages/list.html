@@ -21,7 +21,7 @@
 					</thead>
 					<tbody>
 						<tr th:if="${messages.empty}">
-							<td colspan="3">No messages</td>
+							<td colspan="3">No messages to display at this time</td>
 						</tr>
 						<tr th:each="message : ${messages}">
 							<td th:text="${message.id}">1</td>
